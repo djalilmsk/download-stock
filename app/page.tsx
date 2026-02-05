@@ -5,7 +5,7 @@ import { Download } from "lucide-react"
 function page() {
   const handleDownload = () => {
     const link = document.createElement("a")
-    link.href = "https://github.com/djalilmsk/stock-refactor/releases/download/stock/Stock.Management.Setup.0.1.0.exe"
+    link.href = "https://github.com/djalilmsk/download-stock/releases/download/v1.0/Stock.Management.Setup.0.1.0.exe"
     link.download = "Stock.Management.Setup.0.1.0.exe"
     document.body.appendChild(link)
     link.click()
